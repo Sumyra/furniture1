@@ -1,0 +1,101 @@
+@media (min-width:768px) and (max-width:992px){
+    #banner .row{
+        height: 500px;
+    }
+    #banner .banner_Cnt h2{
+        font-size: 48px;
+        padding-bottom:40px ;
+    }
+    #view .view_card h2{
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    #shop h2{
+        font-size: 24px;
+        margin-bottom: 10px;
+        padding: 0 0;
+    }
+    #new .new_cnt p{
+        font-size: 16px;
+    }
+    #new .new_cnt h3{
+        font-size: 36px;
+        font-weight: var(--thirdWeight);
+    }
+    #new .new_cnt{
+        margin-top: 60px;
+    }
+    #social .h3{
+        font-size: 48px;
+    }
+    #blog h2{
+        font-size: 48px;
+    }
+    
+    nav .iconsDiv ul li span{
+        font-size: 10px;
+        padding: 0 5;
+        color: black;
+        cursor: pointer;
+     }
+     nav .menu{
+        text-align: left;
+     }
+     nav .iconsDiv ul li{
+        margin: 0 10px;
+    }
+    nav .menu ul li{
+        margin: 20px 7px;
+     } 
+     nav .menu ul li a{
+        color: black;
+        font-family: var(--primaryFont);
+        font-weight: var(--secondaryWeight);
+        font-size: 12px;
+     }
+     nav .iconsDiv{
+        text-align: right;
+     }
+
+    
+        
+}
+@media(min-width:320px) and (max-width:767px){
+    nav .menu{
+        display: none;
+    }
+    #banner .row{
+        height: 300px;
+    }
+    #banner .banner_Cnt h2{
+        font-size: 24px;
+        padding-bottom:25px ;
+    }
+    #view .view_card h2{
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
+    #shop h2{
+        font-size: 16px;
+        margin-bottom: 5px;
+        padding: 0 0;
+    }
+    #new .new_cnt p{
+        font-size: 12px;
+    }
+    #new .new_cnt h3{
+        font-size: 24px;
+        font-weight: var(--thirdWeight);
+    }
+    #new .new_cnt{
+        margin-top: 30px;
+    }
+    #social h3{
+        font-size: 36px;
+    }
+    #blog h2{
+        font-size: 36px;
+    }
+
+}
+    
